@@ -32,7 +32,6 @@ var quotes = [
 function newQuote() {
 	var randomNumber = Math.floor(Math.random()*(quotes.length));
 	randomQuote = quotes[randomNumber];
-	console.log(randomQuote.quote);
 	document.getElementById('quote').innerHTML = '"' + randomQuote.quote + '"';
 	document.getElementById('author').innerHTML = randomQuote.author;
 }
