@@ -1,0 +1,22 @@
+body {
+	background: #fdfdfd;
+	text-align: center;
+	font-family: helvetica;
+	color: #444;
+	max-width: 720px;
+	margin: auto;
+	margin-top: 200px
+}
+
+h1 {
+	font-size: 900%;
+}
+
+#quote {
+	font-style: italic;
+	color: #666;
+}
+
+#author {
+	color: #888;
+}
